@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 const https = require("https");
 const fs = require("fs");
+const http = require("http");
 
 app.use(
   cors({
@@ -26,5 +27,9 @@ app.get("/date", (req, res) => {
   res.send(new Date());
 });
 
-// // app.listen(3006);
+const httpServer = http.createServer(app);
+
+httpServer.listen(3006, () => {
+  console.log("HTTP Server running on port 3006");
+});
 // console.log("Web Server is listening at port " + 3006);
