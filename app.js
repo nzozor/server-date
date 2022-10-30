@@ -11,17 +11,17 @@ app.use(
   })
 );
 
-const httpsServer = https.createServer(
-  {
-    key: fs.readFileSync("./server.key"),
-    cert: fs.readFileSync("./server.cert"),
-  },
-  app
-);
+// const httpsServer = https.createServer(
+//   {
+//     key: fs.readFileSync("./server.key"),
+//     cert: fs.readFileSync("./server.cert"),
+//   },
+//   app
+// );
 
-httpsServer.listen(443, () => {
-  console.log("HTTPS Server running on port 443");
-});
+// httpsServer.listen(443, () => {
+//   console.log("HTTPS Server running on port 443");
+// });
 
 app.get("/date", (req, res) => {
   res.send(new Date());
