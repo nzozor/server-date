@@ -1,1 +1,0 @@
-{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"beauti-cms.upload_file"}],"uuid":"3841a245fd194ca88f6a4bc960c6a9ac"}
