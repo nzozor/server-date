@@ -7,7 +7,7 @@ const http = require("http");
 
 app.use(
   cors({
-    origin: *,
+    origin: "*",
   })
 );
 
