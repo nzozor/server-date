@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"beauti-cms.core_store"}],"uuid":"fc441526e22547e084ba523f872b99a5"}
